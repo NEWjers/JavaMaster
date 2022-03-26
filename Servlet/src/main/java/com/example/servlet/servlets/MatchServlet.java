@@ -29,7 +29,7 @@ public class MatchServlet extends HttpServlet {
                 "  border-collapse: collapse;" +
                 "}" +
                 "</style></head><body>");
-        out.println("<h1 style=\"text-align: center\">All Items</h1>");
+        out.println("<h1 style=\"text-align: center\">Matched Items</h1>");
         out.println("<h2><a style=\"text-align: justify\" href=\"http://localhost:8080\">Home</a>" +
                 "    " +
                 "<a style=\"text-align: justify\" href=\"all\">All Items</a></h2>");
